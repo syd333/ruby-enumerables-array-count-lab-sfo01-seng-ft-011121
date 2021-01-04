@@ -9,8 +9,18 @@ end
 index += 1
 end
 total
-end 
+end
 
 def count_empty_strings(array)
+  total = 0
+  empty_string = ''
+  index = 0
+  array.count do
+    if array[index] === empty_string
+      total += 1
+  end
+  index += 1
+end
+total 
   # Return the total number of EMPTY strings in the provided array using the count enumerable
 end
