@@ -3,6 +3,7 @@ def count_strings(array)
   index = 0
   array.count do
     if array[index].is_a? String
+      
 
 end
 
