@@ -4,7 +4,7 @@ def count_strings(array)
   index = 0
   array.count do
     if array[index].is_a? String
-      total += 1 
+      total += 1
 end
 index += 1
 end
